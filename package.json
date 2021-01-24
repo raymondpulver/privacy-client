@@ -1,0 +1,29 @@
+{
+  "name": "privacy-client",
+  "version": "0.1.0",
+  "description": "privacy.com API client",
+  "main": "index.js",
+  "repository": "https://github.com/raymondpulver/privacy-client",
+  "author": "Raymond Pulver IV",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "privacy": "./bin/privacy.js"
+  },
+  "scripts": {
+    "privacy": "cross-env node ./bin/privacy"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "change-case": "^4.1.2",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1"
+  }
+}
